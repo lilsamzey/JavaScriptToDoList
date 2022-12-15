@@ -1,0 +1,36 @@
+
+body {
+    height: 100vh;
+    background-image: url("9.jpg");
+    background-repeat: repeat;
+    background-size: 100% 100%;
+  }
+.container{
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid white;
+    padding: 30px;
+    background-color: #fafafa;
+    box-shadow: rgba(253, 208, 208, 0.35) 0px 5px 15px;
+}
+.input-field{
+    text-align: center;
+}
+input[type="text"]{
+    color: black;
+    border: none;
+    background-color: #e1e4e7;
+    max-width: 600px;
+}
+.todos li{
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+}
+.delete{
+    cursor: pointer;
+    color: red;
+}
